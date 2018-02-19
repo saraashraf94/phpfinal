@@ -1,0 +1,20 @@
+.body-back{
+    background:url("../Css/images/1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.form-horizontal{
+    background-color: rgba(255,255,255,.5);
+    width: 600px;
+    height: 280px;
+    margin-left: 350px;
+    margin-top: 150px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right:25px;
+    padding-left:25px;
+   
+}

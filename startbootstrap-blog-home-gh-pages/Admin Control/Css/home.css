@@ -1,0 +1,544 @@
+
+/*Start Login Page*/
+.body{
+    background: url("images/college2.jpg") no-repeat center  ;
+    min-height: 530px;
+    background-size: cover;
+    border-bottom: 1px solid #337ab7;
+
+  
+}
+.navbar{
+    min-height: 55px;
+}
+
+.navbar-inverse {
+  /*  background-color: ##232323;*/
+    border-color: white;
+    background-color: rgb(66, 80, 93);
+    
+}
+
+
+
+.navbar .navbar-brand{
+    margin-top: 4px;
+   /* font-family: 'Barrio', cursive; */
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+ .navbar-brand span{
+   font-family: 'Caveat Brush', cursive;
+     color: #ffd572;
+     font-style: italic
+}
+
+
+.navbar .linksNav li{
+    display: inline-block;
+  margin: 0 8px;
+  /* text-transform: uppercase; */
+  border-bottom: 2px solid transparent;
+    
+}
+
+
+.navbar-inverse .navbar-nav >li >a{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+     transition: all 0.7s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav > .active{
+    border-bottom: 2px solid #337ab7;
+    background-color: transparent;
+    transition: all 0.7s ease-in-out;
+   
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: transparent;
+    color: #ffd572;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    color: #337ab7;
+   
+    
+}
+
+.navbar .linksNav li.active a,
+.navbar .linksNav li a:hover
+{
+    color: #ffd572;
+     background-color: transparent
+
+}
+
+.navbar .linksNav li.active,
+.navbar .linksNav li:hover
+{
+  
+    border-bottom: 2px solid #ffd572;
+    
+
+}
+
+
+.navbar .linksNav li.active:hover a{
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-inverse .navbar-header{
+    margin-left:150px;
+}
+.navbar-inverse .navbar-brand {
+    
+     color: beige;
+    font-size: 35px;
+    font-weight: bold;
+}
+   
+    .navbar > .container-fluid .navbar-brand {
+        margin-right: 40px;
+  margin-left: -73px;
+    }
+
+.dropdown-menu .divider{
+    background-color: #337ab7;
+}
+
+  /* ******* end navbar ***********/
+   
+.intro span{
+    font-size:25px;
+    
+}
+.input-text input{
+    margin-left: 0px;
+}
+
+/* End Login Page*/
+
+
+
+
+h1{
+    color: #337ab7;
+    font-weight: bold;
+}
+
+
+label{
+    text-align: center;
+}
+
+/* end true/false form */
+
+
+
+/* start navbar */
+
+.navbar-inverse .btn-link {
+    color: #ffffff;
+      margin-top: 4px;
+}
+
+.navbar .form-group{
+        padding: 5px;
+}
+.navbar .form-group .form-control{
+    width: 300px;
+    height: 25px;
+    margin-left: 400px;
+    border: 1px;
+    border-color: #337ab7;
+}
+.navbar .fa-search{
+        color: aliceblue;
+}
+.navbar .dropdown-menu{
+    width: 200px;
+    
+}
+
+.navbar .dropdown {
+    margin-left: 990px;
+    padding: 9px;
+    color: #dff0d8;
+}
+ .navbar .dropdown a{
+    margin-left: 5px;
+    padding: 6px;
+    color: #494949;
+}
+.user-name{
+    color: white;
+}
+/*end navbar */
+
+/* end home page */
+
+
+/* start show section */
+
+
+.show{
+    background: url("images/college2.jpg") no-repeat center fixed;
+    min-height: 530px;
+    background-size: cover;
+    border-bottom: 1px solid #337ab7;
+  
+}
+
+
+
+
+.show .data{
+    background: rgba(1,1,1,.7);
+    color: #b6b5b5;
+    min-height: 600px;
+    padding-top: 100px;
+  
+   
+}
+
+
+
+/* start login */
+
+
+.show .data {
+  margin-top: -32px;
+}
+
+.show .data .login{
+   top: 250px;
+    position: absolute;
+    padding-left: 150px;
+}
+
+.show .data span{
+    font-size: 50px;
+    color: #337ab7;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FF9933;
+    text-transform: capitalize;
+}
+
+
+
+.show .data .login .form-control{
+    width: 500px;
+}
+
+
+.show .data .login .checkbox{
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.show .data .login .loginBtn{
+    display: block;
+    width: 260px;
+    margin-left: 135px;
+    background: transparent;
+    border: 1px solid #337ab7;
+    font-weight: bold;
+    font-size: 18px;
+    color: #337ab7;
+    transition: all 0.5s ease-in-out;
+}
+
+.show .data .login .loginBtn:hover{
+    color: #fff;
+    background-color: #337ab7;
+}
+
+/* end login */
+
+
+/* start contact us section */
+
+.contact-us{
+
+    background: url("images/college2.jpg") no-repeat center fixed;
+    background-size: cover;
+min-height: 300px;
+    margin-top: 0px;
+     
+}
+
+
+.contact-us .fields{
+        background: rgba(20, 31, 49, 0.7);
+    min-height: 300px;
+color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-us .fields button{
+    background: transparent;
+    border: 1px solid #337ab7;
+   color: #337ab7;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+.contact-us .fields button:hover{
+    color: #fff;
+background-color: #337ab7;
+}
+
+.contact-us p {margin-bottom: 40px}
+
+.contact-us textarea {height: 108px}
+
+.contact-us .social-info{text-align: left}
+
+.contact-us .social-info li i {margin-right: 5px}
+
+.contact-us .social-info li{margin-bottom: 5px;}
+
+/* end contact us section */
+
+/* start about */
+
+.about{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-weight: bold;
+}
+
+/* end about */
+
+
+/* start scrollup */
+
+#scroll-up{
+    width: 50px;
+    height: 40px;
+    color: #ddd;
+    background: #272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+}
+
+#scroll-up:hover {background: #444}
+
+/* end scrollup */
+
+
+/* Start Question Perview */
+
+
+.Qp {
+    /* width: 70%; */
+    height: auto;
+    background-color: rgb(37, 51, 66);
+    padding: 20px;
+    border-radius: 3px;
+    /* margin-left: 10px; */
+}
+.Qp label{
+    margin-right: 15px;
+}
+
+.Qp-buttons div button{
+    width: 70px;
+    color: #fff;
+      background-color: #183854;;
+    border-color: #ffffff
+    border-radius: 3px;
+    color: #eeeeee;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+h3{
+color: aliceblue;
+    font-size: 24px;
+    font-family: verdana;
+}
+
+
+/* End Question Perview */
+
+
+/* ---- Start Footer ---- */
+.footer{
+    height: 120px;
+    border-top: 2px solid white;
+    position: fixed;
+    top: 550px;
+    background-color: rgba(7, 26, 43, 0.95);
+    
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.footer a{
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer .linksFooter a:hover{
+    color: #337ab7;
+    
+   
+}
+
+.footer .text-center{
+    margin-top: 20px;
+    padding-top: -5px
+}
+.footer .text-center a{
+    margin-left: 10px;
+    
+}
+
+
+.footer .socialMedia{
+    padding-left: 575px;
+    margin-top: 20px;
+  
+}
+
+.footer .socialMedia li{
+    float: left;
+    margin-right: 5px;
+}
+
+.footer .socialMedia li{
+   color:#fff
+}
+
+.footer .socialMedia .fa{
+     transition: all 0.5s ease-in-out;
+}
+
+.footer .socialMedia .fa-facebook-square:hover{
+    color: #3b5998;
+}
+
+.footer .socialMedia  .fa-google-plus-square:hover{
+    color: #dd4b39;
+}
+
+.footer .socialMedia li:hover .fa-linkedin-square:hover{
+    color: #007bb5;
+}
+
+.footer .socialMedia .fa-twitter-square:hover{
+   color: #55acee;
+}
+
+.footer .socialMedia  .fa-youtube-square:hover{
+    color: #bb0000;
+}
+
+
+.footer .copyright{
+    float: right;
+    color: #888
+}
+
+.footer .copyright span{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/*----- end Footer -------*/
+.disabled{
+    display: none;
+}
+.footer-content a {
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-content li{
+    margin-top: 10px;
+}
+.footer-content a:hover,
+ a:focus {
+    color: #ffd572;
+    /* text-decoration: underline; */
+}
+
+.footer-content .socialMedia li{
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-content .socialMedia li{
+   color:#fff
+}
+
+.footer-content .socialMedia .fa{
+     transition: all 0.5s ease-in-out;
+}
+
+.footer-content .socialMedia .fa-facebook-square:hover{
+    color: #3b5998;
+}
+
+.footer-content .socialMedia  .fa-google-plus-square:hover{
+    color: #dd4b39;
+}
+
+.footer-content .socialMedia li:hover .fa-linkedin-square:hover{
+    color: #007bb5;
+}
+
+.footer-content .socialMedia .fa-twitter-square:hover{
+   color: #55acee;
+}
+
+.footer-content .socialMedia  .fa-youtube-square:hover{
+    color: #bb0000;
+}
+.footer-content .copy-right{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+.comment-content{
+        background-color: rgb(90, 128, 160);
+    margin-top: 40px;
+    /* margin-left: 20px; */
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+    padding: 15px 15px 15px;
+}
+.question-content .panel-default > .panel-heading {
+    color: #fff;
+    background-color: rgb(66, 80, 93);
+    border-color: #ddd;
+}
+
+
+
+
+

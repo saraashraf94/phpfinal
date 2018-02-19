@@ -1,0 +1,122 @@
+/*
+.AddQuestions{
+    
+}
+*/
+
+
+.questions{
+   background-color: rgba(52, 99, 139, 0.81);
+  width: 50%;
+  height:auto;
+  margin-left: 313px;
+     margin-top: 55px;
+    padding: 5px;
+    border-radius: 5px;
+        padding-bottom: 30px;
+    
+}
+
+
+
+.questions h1{
+    font-family: 'PT Sans', sans-serif;
+    color: #d19b3d;
+    padding-bottom: 7px;
+  padding-left: 40px;
+}
+
+.questions hr{
+    margin-top: 5px;
+  margin-bottom: 17px;
+}
+
+.modal-dialog{
+    width: 295px;
+}
+
+.modal-header , .modal-footer{
+    text-align: center;
+    padding: 13px;
+}
+
+.modal-body{
+    padding: 0;
+}
+
+.modal-body .questions{
+    padding: 8px;
+    background-color: #EAE9E9;
+    max-height: 230px;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.questions .btn-group{
+    width: 100%;
+}
+
+
+.modal-body .questions p{
+    color: #337ab7;
+    font-family: 'Baloo Bhaina', cursive;
+    font-weight: bold;
+}
+
+
+
+.modal-body .questions hr{
+    height: 1px;
+    border: 0;
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.modal-body .questions .description{
+    display: none;
+}
+
+.questions textarea .form-control{
+    height: 130px;
+}
+
+.true-false #questionTxt , .MultiChoice #questionTxt{
+    height: 92px;
+}
+
+.questions .form-control{
+    width: 370px;
+}
+
+.MultiChoice .radio,
+.true-false .radio
+{
+    margin-top: -3px;
+    margin-left: -7px
+}
+
+
+.detectAnswer .radio label{
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.Q-buttons{
+    margin-bottom: 6px
+}
+
+
+.Q-buttons .save{
+   margin-right: 15px
+}
+
+.Q-buttons .perview{
+   margin-left: 15px
+}
+.save, .perview , .add ,.retry {
+    color: #fff;
+      background-color: #183854;;
+    border-color: #ffffff;
+}
